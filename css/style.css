@@ -25,6 +25,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* -----headerstyle----- */
+#header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* ----- SMOOTH SCROLL ----- */
 html {
   scroll-behavior: smooth;
@@ -106,6 +113,9 @@ nav {
   font-size: 5em;
   color: var(--text-color-second);
 }
+.nav-logo a {
+  margin-left: 35px;
+}
 .nav-menu,
 .nav_menu_list {
   display: flex;
@@ -123,6 +133,7 @@ nav {
 }
 .nav-menu-btn {
   display: none;
+  margin-right: 35px;
 }
 .nav-menu-btn i {
   font-size: 28px;
@@ -288,6 +299,7 @@ nav {
 .top-header {
   text-align: center;
   margin-bottom: 5em;
+  font-size: 23px;
 }
 .top-header h1 {
   font-weight: 600;
@@ -319,7 +331,10 @@ h3 {
   max-width: 500px;
   background: var(--color-white);
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-  border-radius: 20px;
+  border-radius: 20px;  
+}
+.edudiv p {
+  padding-top: 10px;
 }
 
 /* EPLOYMENT */
@@ -341,9 +356,26 @@ h3 {
   border-radius: 20px;
   margin-top: 20px;
 }
-.workinfo :nth-child(5) {
-  text-align: justify;
+.workinfo h4 {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
 }
+.workinfo h3 {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+.workinfo p {
+  margin-top: 19px;
+   text-align: justify;
+ 
+}
+.workinfo :nth-child(3){
+  text-align: center;
+  
+}
+
 
 /* ----- ABOUT INFO ----- */
 .about-info {
@@ -363,22 +395,20 @@ h3 {
   font-size: 15px;
   color: #777;
   text-align: justify;
+  margin-top: 20px;
 }
-.about-btn button {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  background: var(--first-color);
-  color: var(--color-white);
-  border-radius: 30px;
-}
-.about-btn button:hover {
-  background: var(--first-color-hover);
+.about-info h3 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box {
   margin: 10px;
+}
+.skills-box h3 {
+  font-size: 18px;
+  font-weight: bold;
 }
 .skills-header {
   margin-bottom: 30px;
@@ -541,14 +571,23 @@ footer {
   flex-direction: column;
   row-gap: 30px;
   background: #f8f8f8;
-  /* padding-block: 40px 60px; */
+  height: 200px;
 }
 .top-footer p {
   font-size: 25px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
 }
 .middle-footer .footer-menu {
   display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
 }
 .footer_menu_list {
   list-style: none;
@@ -562,10 +601,18 @@ footer {
 .footer-social-icons {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
 }
 .bottom-footer {
   font-size: 14px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
@@ -585,6 +632,7 @@ footer {
   .nav-button {
     display: none;
   }
+
   .nav-menu.responsive {
     left: 0;
   }
@@ -706,6 +754,8 @@ footer {
     text-align: center;
   }
 }
+
+/* ----- MEDIA QUERY == 395px / RESPONSIVE ----- */
 @media only screen and (max-width: 395px) {
   .footer-menu {
     display: flex;
