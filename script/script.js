@@ -67,12 +67,12 @@ sr.reveal('.top-header',{})
 /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
 /* -- ABOUT INFO & CONTACT INFO -- */
-const srLeft = ScrollReveal({
-  origin: 'left',
-  distance: '80px',
-  duration: 2000,
-  reset: true
-})
+// const srLeft = ScrollReveal({
+//   origin: 'left',
+//   distance: '80px',
+//   duration: 2000,
+//   reset: true
+// })
 
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
