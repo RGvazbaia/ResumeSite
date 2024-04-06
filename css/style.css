@@ -55,7 +55,6 @@ html {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.4s;
-  height: ;
 }
 .btn > i {
   margin-left: 10px;
@@ -558,7 +557,7 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 916px) {
   .nav-button {
     display: none;
   }
@@ -656,9 +655,6 @@ footer {
     width: 80%;
     text-align: center;
   }
-  
-
-  
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */

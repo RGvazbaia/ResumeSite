@@ -42,12 +42,12 @@ function myMenuFunction(){
 
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
- const sr = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 2000,
-        reset: true     
- })
+//  const sr = ScrollReveal({
+//         origin: 'top',
+//         distance: '80px',
+//         duration: 2000,
+//         reset: true     
+//  })
 
 /* -- HOME -- */
 sr.reveal('.featured-text-card',{})
@@ -76,7 +76,7 @@ const srLeft = ScrollReveal({
 
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
-srLeft.reveal('.edudiv',{delay: 300})
+srLeft.reveal('.edudiv',{delay: 100})
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
