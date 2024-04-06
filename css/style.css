@@ -322,6 +322,29 @@ h3 {
   border-radius: 20px;
 }
 
+/* EPLOYMENT */
+.workdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workinfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 80px 70px;
+  padding-inline: 20px;
+  max-width: 500px;
+  background: var(--color-white);
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.workinfo :nth-child(5) {
+  text-align: justify;
+}
+
 /* ----- ABOUT INFO ----- */
 .about-info {
   position: relative;
@@ -339,6 +362,7 @@ h3 {
   text-align: center;
   font-size: 15px;
   color: #777;
+  text-align: justify;
 }
 .about-btn button {
   position: absolute;
@@ -682,13 +706,10 @@ footer {
     text-align: center;
   }
 }
-@media only screen and (max-width: 395px){
-
-.footer-menu{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-   
-
-}
+@media only screen and (max-width: 395px) {
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
