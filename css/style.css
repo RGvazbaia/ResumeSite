@@ -120,6 +120,9 @@ nav {
 .nav_menu_list {
   display: flex;
 }
+.btn{
+  margin-right: 35px;
+}
 .nav-menu .nav_list {
   list-style: none;
   position: relative;
