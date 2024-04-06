@@ -773,7 +773,13 @@ footer {
     
   }
   footer{
-    height: 250px;
+    height: 300px;
     text-align: center;
+  }
+  .middle-footer li{
+    margin-top: 10px;
+  }
+  .middle-footer :nth-child(1){
+    margin: 0;
   }
 }
