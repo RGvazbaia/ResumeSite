@@ -582,7 +582,7 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 10px;
+  padding-top: 50px;
   font-family: "Poppins", sans-serif;
 }
 .middle-footer .footer-menu {
