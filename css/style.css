@@ -120,7 +120,7 @@ nav {
 .nav_menu_list {
   display: flex;
 }
-.btn{
+.btn {
   margin-right: 35px;
 }
 .nav-menu .nav_list {
@@ -334,7 +334,7 @@ h3 {
   max-width: 500px;
   background: var(--color-white);
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 .edudiv p {
   padding-top: 10px;
@@ -371,14 +371,11 @@ h3 {
 }
 .workinfo p {
   margin-top: 19px;
-   text-align: justify;
- 
+  text-align: justify;
 }
-.workinfo :nth-child(3){
+.workinfo :nth-child(3) {
   text-align: center;
-  
 }
-
 
 /* ----- ABOUT INFO ----- */
 .about-info {
@@ -575,6 +572,9 @@ footer {
   row-gap: 30px;
   background: #f8f8f8;
   height: 200px;
+  
+  
+
 }
 .top-footer p {
   font-size: 25px;
@@ -582,24 +582,28 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 50px;
+  padding-top: 30px;
   font-family: "Poppins", sans-serif;
+  
 }
 .middle-footer .footer-menu {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 10px;
-  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif; 
+  
 }
 .footer_menu_list {
   list-style: none;
+  
 }
 .footer_menu_list a {
   text-decoration: none;
   color: var(--text-color-second);
   font-weight: 500;
   margin-inline: 20px;
+  
 }
 .footer-social-icons {
   display: flex;
@@ -607,6 +611,7 @@ footer {
   justify-content: center;
   align-content: center;
   padding-top: 15px;
+  
 }
 .bottom-footer {
   font-size: 14px;
@@ -616,6 +621,7 @@ footer {
   align-content: center;
   padding-top: 15px;
   font-family: "Poppins", sans-serif;
+  
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
@@ -715,8 +721,9 @@ footer {
   }
   .edudiv {
     margin-top: 30px;
-    width: 80%;
+    width: 100%;
     text-align: center;
+    max-width: ;
   }
 }
 
@@ -727,7 +734,6 @@ footer {
   }
   .edudiv {
     margin-top: 30px;
-    width: 80%;
     text-align: center;
   }
 }
@@ -753,7 +759,7 @@ footer {
   }
   .edudiv {
     margin-top: 30px;
-    width: 80%;
+
     text-align: center;
   }
 }
@@ -763,6 +769,11 @@ footer {
   .footer-menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
+    
+  }
+  footer{
+    height: 250px;
+    text-align: center;
   }
 }
